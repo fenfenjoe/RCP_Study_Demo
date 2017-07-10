@@ -1,0 +1,54 @@
+package com.ibm.demo.rcpclient.views;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.layout.GridLayout;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Menu;
+import org.eclipse.swt.widgets.MenuItem;
+
+import com.ibm.demo.rcpclient.util.WidgetsFactory;
+
+public class FunctionComposite extends Composite {
+	private Menu mainMenu;
+	private Label contentLabel;
+	private Composite contentComposite;
+	public FunctionComposite(Composite parent, int style) {
+		super(parent, style);
+		// TODO Auto-generated constructor stub
+		init();
+	}
+	public void init(){
+		GridLayout layout=new GridLayout(1,false);
+		this.setLayout(layout);		
+		this.setSize(this.getParent().getSize());
+		createControl(this);
+//		this.pack();
+	}
+	public void createControl(Composite parent) {
+		if(mainMenu==null){
+			mainMenu=WidgetsFactory.createMenu(this.getShell(),SWT.None, null);
+		}
+		if(contentLabel==null){
+			contentLabel=new Label(this.getShell(),SWT.BORDER);
+			GridData layoutdata=new GridData(SWT.FILL,SWT.FILL,false,false);
+			contentLabel.setLayoutData(layoutdata);
+		}
+		if(contentComposite==null){
+			contentComposite=new Composite(this.getShell(),SWT.BORDER);
+			GridData layoutdata=new GridData(SWT.FILL,SWT.FILL,false,false);
+			contentComposite.setLayoutData(layoutdata);
+		}
+		createMenu();
+	}
+	public void createMenu(){
+		MenuItem item1=WidgetsFactory.createCascadeMenuItem(this.getShell(),mainMenu,"&Button",null);
+		WidgetsFactory.createPushMenuItem(item1.getMenu(),"&ArrowButton",null);
+		WidgetsFactory.createPushMenuItem(item1.getMenu(), "&CheckButton",null);
+		WidgetsFactory.createPushMenuItem(item1.getMenu(), "&RadioButton",null);
+		WidgetsFactory.createPushMenuItem(item1.getMenu(), "&TOGGLEButton",null);
+		WidgetsFactory.createPushMenuItem(item1.getMenu(), "&WrapButton",null);
+		MenuItem item2=WidgetsFactory.createCascadeMenuItem(this.getShell(),mainMenu ,"&List",null);
+	}
+}

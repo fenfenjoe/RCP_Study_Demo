@@ -1,0 +1,10 @@
+package com.ibm.demo.rcpclient.util;
+
+import org.eclipse.swt.events.SelectionListener;
+import org.eclipse.swt.widgets.Control;
+
+public class ListenerFactory {
+	public static SelectionListener getSelectionListener(Control item){
+		
+	}
+}

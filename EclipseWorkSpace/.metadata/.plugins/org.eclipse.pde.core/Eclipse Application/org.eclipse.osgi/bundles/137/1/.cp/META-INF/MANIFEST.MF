@@ -1,0 +1,81 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.datatools.intro; singleton:=true
+Bundle-ManifestVersion: 2
+Created-By: 1.4.2_09-b05 (Sun Microsystems Inc.)
+Bundle-Localization: plugin
+Bundle-Name: %pluginName
+Bundle-Version: 1.6.1.v200807021300
+Bundle-Vendor: %providerName
+
+Name: about.mappings
+SHA1-Digest: YwaxbEct2bb544LsPIdfiqHPyuQ=
+
+Name: intro/css/graphics/obj_48/samplered_obj.gif
+SHA1-Digest: xyclRs7X+S5qYUAIj5vf9cgx85A=
+
+Name: intro/DTP_samples.xml
+SHA1-Digest: ypaAoUIscTBREh3lCwbBmNNMxP8=
+
+Name: intro/css/overview.css
+SHA1-Digest: yLCkiiD3RURGpuZlrSeOSJmCZwA=
+
+Name: intro/css/samples.css
+SHA1-Digest: BCs1NPESE6M62CuoVRaYWF2wZzg=
+
+Name: about.html
+SHA1-Digest: +/ZbB4iOoCwiJmEdG+67tzzJKc4=
+
+Name: plugin.xml
+SHA1-Digest: VwWLHlRJPkYLTkl+sBvwRBMize4=
+
+Name: intro/css/whatsnew.css
+SHA1-Digest: c3tWKZ5eKAhRu2Nakzx6xNslLu8=
+
+Name: about.properties
+SHA1-Digest: Z3BgR6EkXW7eB7moJIk+7nDMYhM=
+
+Name: intro/css/graphics/obj_48/sampleredhov_obj.gif
+SHA1-Digest: ihkskfoZziwVHvJgM+Xn3CVxTLA=
+
+Name: intro/DTP_overview.xml
+SHA1-Digest: RKhUkqO/R1vlYePSf6eF68Te9GI=
+
+Name: intro/css/graphics/obj_48/dtphov_obj.gif
+SHA1-Digest: b06DoFRhsKuOviEqBTtkkuLDLKM=
+
+Name: about.ini
+SHA1-Digest: C3jSeiT0k+guyEyRT6Q1fmDHfrE=
+
+Name: intro/DTP_whatsnew.xml
+SHA1-Digest: 4S938E4kyEKF8VFAgnWn1c7OT/A=
+
+Name: intro/css/graphics/obj_48/updateshov_obj.gif
+SHA1-Digest: IJzNczMIYtMhc3wgnH+7eKTKsNE=
+
+Name: plugin.properties
+SHA1-Digest: rmY+NoJfyq9wsxSiysBwNN3I1Gw=
+
+Name: intro/css/graphics/obj_48/dtp_obj.gif
+SHA1-Digest: OaFAmSBj5EnQPcOWwIKTPDmkJJw=
+
+Name: intro/css/graphics/obj_48/samplepurphov_obj.gif
+SHA1-Digest: P+2sI+gl63s/E1UKU1VM3NI9USE=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: intro/css/tutorials.css
+SHA1-Digest: rppGhOlGp7JMa4OpCSxbAVuysqw=
+
+Name: intro/DTP_tutorials.xml
+SHA1-Digest: sXX+lPut3zQ7GExfEo9/zFmMiuM=
+
+Name: eclipse32.png
+SHA1-Digest: eCk/A3/COXL3S6qAVDOSrlsqmLw=
+
+Name: intro/css/graphics/obj_48/samplepurp_obj.gif
+SHA1-Digest: 5rI1hit/n7LcCe7ksvfZTv77gNc=
+
+Name: intro/css/graphics/obj_48/updates_obj.gif
+SHA1-Digest: uS1DODhCWN0rMELoTrRWu3mrd/8=
+

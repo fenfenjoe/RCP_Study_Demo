@@ -1,0 +1,30 @@
+package com.ibm.demo.rcpclient.util;
+
+import java.lang.reflect.Method;
+
+import org.eclipse.swt.events.SelectionEvent;
+import org.eclipse.swt.events.SelectionListener;
+
+public class ListenerFactory {
+	private SelectionListener selectionListener;
+	public SelectionListener getSelectionListener(final Method method){
+		selectionListener=new SelectionListener(){
+
+			@Override
+			public void widgetDefaultSelected(SelectionEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void widgetSelected(SelectionEvent e) {
+				// TODO Auto-generated method stub
+				method.invoke(e, null);
+			}
+			
+		};
+		return selectionListener;
+	}
+
+
+}

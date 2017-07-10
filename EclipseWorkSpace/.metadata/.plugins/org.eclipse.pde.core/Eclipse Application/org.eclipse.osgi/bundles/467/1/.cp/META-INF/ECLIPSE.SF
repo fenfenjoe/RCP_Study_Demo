@@ -1,0 +1,259 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest: FkhVVnNSPmnSebnfJplVjFIR4pk=
+Created-By: 1.5.0 (IBM Corporation)
+SHA1-Digest-Manifest-Main-Attributes: r9nltavX2fS1LiuCTM5aFkxxi1g=
+
+Name: topics_Extpoint.xml
+SHA1-Digest: wss7U2GzbOi6/sWaqIrSW7qZJDQ=
+
+Name: html/gettingstarted/images/img13.png
+SHA1-Digest: 5P8mOHVXOkD3+Cg29pWUUglHFfQ=
+
+Name: html/concepts/container.html
+SHA1-Digest: ExVeoheDl2QRY59eHDM/1ES5KQM=
+
+Name: html/tutorials/images/img003.gif
+SHA1-Digest: /D0H1AYWJzhpVfIMyUnTfgVgdGI=
+
+Name: topics_Samples.xml
+SHA1-Digest: k0EvuNCfCl/LlPYV0A7nKPljfYs=
+
+Name: html/concepts/sharedobject.html
+SHA1-Digest: eB0Crqp1bnxXjIY9WN1BV2ZpNxU=
+
+Name: topics_Tutorials.xml
+SHA1-Digest: CeqZeAOD1R+YR3zp/MUgQMyZTMM=
+
+Name: intro/css/overview.css
+SHA1-Digest: ir8rmju2ImY4L96KdjGnNMLB05Q=
+
+Name: html/gettingstarted/images/img12.png
+SHA1-Digest: vs90tpAN8oV5gpuiHledPbZeSP0=
+
+Name: plugin.xml
+SHA1-Digest: 0tei5jcsaO0Ha7FRt4f/CpFc3gU=
+
+Name: html/tutorials/images/img009.gif
+SHA1-Digest: UknRId51UXetwa7gUkiJBJ0AafM=
+
+Name: topics_GettingStarted.xml
+SHA1-Digest: LEPbw6jt6TGfnOfGKjFlOMPZ3Wo=
+
+Name: html/reference/extension-points/org_eclipse_ecf_provider_filetra
+ nsfer_retrieveFileTransferProtocolFactory.html
+SHA1-Digest: njXU18vI18nAVQicLaybSJKQxaA=
+
+Name: html/gettingstarted/images/img7.png
+SHA1-Digest: n8t1UlK2F8PrVh9CK0Ymr8XblNc=
+
+Name: topics_Reference.xml
+SHA1-Digest: vPe1LYG/Q0M88jeDNU61essOU0s=
+
+Name: html/reference/extension-points/org_eclipse_ecf_presence_bot_cha
+ tRoomMessageHandler.html
+SHA1-Digest: FbFIpcHv6xmdQyXgXMnMl/rBgQw=
+
+Name: tocpics_Concepts.xml
+SHA1-Digest: JQH27WMLqT65v16KEbvAwqzTWjs=
+
+Name: html/reference/extension-points/org_eclipse_ecf_presence_ui_rost
+ erViewerDropTarget.html
+SHA1-Digest: EDodPyZRv5FwMpqFbNjsly2r8p0=
+
+Name: intro/overviewExtensionContent.xml
+SHA1-Digest: ZBnqYs29fjs7e+b5/VvDSON3tCc=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: DC4iHwipf8FJMZGFaPiGGsxgfA0=
+
+Name: html/tutorials/images/img010.gif
+SHA1-Digest: pGdHOluUWSUgE9Z6XhpzyJnFm5Y=
+
+Name: toc.xml
+SHA1-Digest: nrgK0sExmTvC5P+eqNLpu5x5Br0=
+
+Name: html/reference/extension-points/org_eclipse_ecf_provider_filetra
+ nsfer_browseFileTransferProtocolFactory.html
+SHA1-Digest: 0RB2SMJ5RK+jVfPp7N+4uUMXZ4w=
+
+Name: html/reference/extension-points/org_eclipse_ecf_ui_configuration
+ Wizards.html
+SHA1-Digest: l1bagN47JAAp+LCq0C9qvd2V8Iw=
+
+Name: notices.html
+SHA1-Digest: mRk/WmtXWRvqUb2RqJvrKmAtB2k=
+
+Name: html/gettingstarted/images/img2.png
+SHA1-Digest: 5/1uh8jYk7DxATjRQO5KJszN3bE=
+
+Name: schema.xml
+SHA1-Digest: R7g28SlejA+XJyQP/2M7yEnXZG8=
+
+Name: html/reference/extension-points/org_eclipse_ecf_provider_filetra
+ nsfer_sendFileTransferProtocolFactory.html
+SHA1-Digest: 5LmYMd9v8RthRK7oJYZnfYXdICA=
+
+Name: html/tutorials/images/img011.gif
+SHA1-Digest: IhVCtVKZZa7pKLLjxzrtR7JrOtE=
+
+Name: html/gettingstarted/images/img14.png
+SHA1-Digest: CG3VjpLuPqqZk8ic+eZga3ojZac=
+
+Name: html/gettingstarted/quickStart.html
+SHA1-Digest: c1tz3PtKUpupANC6xefC07Xc+KA=
+
+Name: html/tutorials/images/img002.gif
+SHA1-Digest: 0j7R3cf1AuikZsehnCTTIdL4l+Y=
+
+Name: html/gettingstarted/helloworld.html
+SHA1-Digest: Xb8CTd5VtoCKsSew5T7tCtklEkU=
+
+Name: intro/css/images/ecf_intro.gif
+SHA1-Digest: OomQwFJeakqB55LkvSFIRuUCpLk=
+
+Name: about.html
+SHA1-Digest: iNWxM6jy8QeiF5+ti/F31diQ6JI=
+
+Name: html/tutorials/images/img008.gif
+SHA1-Digest: J6apkwJJWUaCNuyab6wbyPPx2/k=
+
+Name: html/gettingstarted/images/img6.png
+SHA1-Digest: jGpXTwnXzwScvKsHM+6EThr+d/w=
+
+Name: html/reference/extension-points/org_eclipse_ecf_server_generic_c
+ onfiguration.html
+SHA1-Digest: MiS0eqIP6LWTz2Y0icoh2/Mi/PU=
+
+Name: html/tutorials/bot.html
+SHA1-Digest: J1kPdOxHXio6pE1Dod3aG1cbn7I=
+
+Name: html/gettingstarted/prerequisites.html
+SHA1-Digest: u0x9FDeG7Z5WPWJk8cHQ46T7Y9k=
+
+Name: html/gettingstarted/graphshare.html
+SHA1-Digest: ItWcJlT66+UyWDPpE3qWNdhBy5Q=
+
+Name: html/gettingstarted/images/commperspectiveselect.png
+SHA1-Digest: BMDWoE1jrnhm+EGGvLLtvlpN/Lg=
+
+Name: tocapi.xml
+SHA1-Digest: V9iwv4nrswG/hT1cmrfspGMRZfA=
+
+Name: html/gettingstarted/images/img1.png
+SHA1-Digest: xFJW1pZ9c3+7qwjU0P3jM3jJ/L0=
+
+Name: html/tutorials/images/img001.gif
+SHA1-Digest: FcVTy+7jTJHme7tF3JthOkLgi24=
+
+Name: intro/css/images/ecf_intro_hov.gif
+SHA1-Digest: nGeUFEw27tPPNABwNmzHHFR11q8=
+
+Name: html/tutorials/installation.html
+SHA1-Digest: kfntR1s6UJFOTXUMwcnZLE5XT/s=
+
+Name: html/tutorials/images/img012.gif
+SHA1-Digest: JfSWdpplGVnbchpgD91e5W4FF2o=
+
+Name: html/gettingstarted/images/img11.png
+SHA1-Digest: ygLrVyHA2R1NUKWd35Sl2DUM+OY=
+
+Name: html/gettingstarted/images/img10.png
+SHA1-Digest: o2ESGiZV8Adi7ngt0FpKhkXD5nE=
+
+Name: html/tutorials/images/img007.gif
+SHA1-Digest: t3oggHNJ6NyKK2LA0lytVITSc6w=
+
+Name: intro/css/whatsnew.css
+SHA1-Digest: GTHo22JRTeC2tp3rRTycpCeiX+A=
+
+Name: html/reference/extension-points/org_eclipse_ecf_presence_bot_imM
+ essageHandler.html
+SHA1-Digest: fxd3NpJFQlzrda7M1U0UYvh9mPU=
+
+Name: html/reference/extension-points/org_eclipse_ecf_containerFactory
+ .html
+SHA1-Digest: euS4Wy01ebCNj5vKghqhP8IF/F8=
+
+Name: html/gettingstarted/images/img9.png
+SHA1-Digest: uRJKINQH7RuJtBQWnGvDn38xfnY=
+
+Name: intro/tutorialsExtensionContent.xml
+SHA1-Digest: /0c+aCr4V6Xz79/mOZt1N9zQOQU=
+
+Name: html/reference/extension-points/org_eclipse_ecf_ui_connectWizard
+ s.html
+SHA1-Digest: QAi5xS/HhZxWr9TA2K1voQhoehk=
+
+Name: html/gettingstarted/images/img3.png
+SHA1-Digest: mMSUBd2I1GKShl4fT4divXw6wbY=
+
+Name: html/gettingstarted/images/img15.png
+SHA1-Digest: OOdSkdSJCYrqW+3gPo04oWjkpgM=
+
+Name: html/gettingstarted/images/img5.png
+SHA1-Digest: WVF02kH9aOmCtgjD9SAg/n4ty0I=
+
+Name: html/tutorials/images/img013.gif
+SHA1-Digest: M/Q9mtvBwMOY1TZCj0YowsJRwL4=
+
+Name: html/gettingstarted/images/img4.png
+SHA1-Digest: P5iJC7+TNwj7zhoW+488l1PaZJY=
+
+Name: html/tutorials/images/img005.gif
+SHA1-Digest: CEoLuNDIpZmy+tN7/8puA4KQKsU=
+
+Name: plugin.properties
+SHA1-Digest: lzf+dO0mAYgl6ET32Ctnex5hbaE=
+
+Name: html/reference/extension-points/org_eclipse_ecf_sharedobject_sha
+ redObjectFactory.html
+SHA1-Digest: 5o12Ej8yfepu1qMhSfNQM8Nl4fs=
+
+Name: intro/css/tutorials.css
+SHA1-Digest: OpTdzU3IIxcsV9SQE4jXkn0MSVw=
+
+Name: html/concepts/intro.html
+SHA1-Digest: 7ouCZwp1UYZz0MDwczATmKzV1mM=
+
+Name: html/tutorials/images/img004.gif
+SHA1-Digest: oAhwijcdJR+MMhxIME+ZhFdO3T0=
+
+Name: html/reference/extension-points/org_eclipse_ecf_presence_bot_cha
+ tRoomRobot.html
+SHA1-Digest: sCzrMV0O0eEgxRoGJrGNeAtNY50=
+
+Name: html/gettingstarted/images/commperspective.png
+SHA1-Digest: a+Hwaggt+svT0SzfCakVy7yFYfc=
+
+Name: html/reference/extension-points/org_eclipse_ecf_identity_namespa
+ ce.html
+SHA1-Digest: LnqsGxqT/2fD9VDb4++PDaP6VFE=
+
+Name: html/tutorials/images/img006.gif
+SHA1-Digest: inq5JSr+b95U5w7Obur+ugh8/Uk=
+
+Name: html/gettingstarted/ecf_overview.html
+SHA1-Digest: Rz9pm8d//cv4qPDKcK09IN9xboY=
+
+Name: html/gettingstarted/connect.html
+SHA1-Digest: Hse9MbOtG1tpS5LwS6S6UeW2txg=
+
+Name: html/gettingstarted/runserver.html
+SHA1-Digest: ycJXbawV2x9osW+OCh/GeOciN4A=
+
+Name: html/reference/extension-points/org_eclipse_ecf_start.html
+SHA1-Digest: ZhLBS3C5akNCiNiA+szj08+C1TY=
+
+Name: html/reference/extension-points/org_eclipse_ecf_presence_bot_imR
+ obot.html
+SHA1-Digest: 3FXg0cT565T9yYFuyjqD80mGqos=
+
+Name: html/gettingstarted/default_style.css
+SHA1-Digest: okoPbbKu6NLG2LnXZFHdjgHPRzI=
+
+Name: intro/whatsnewExtensionContent.xml
+SHA1-Digest: w2g3TTfP5x1diigA13YS6HRj/30=
+
+Name: html/gettingstarted/images/commperspectivewidgets.png
+SHA1-Digest: Aqw+2ZyXXX/0ewQgZWrE6aSOqQs=
+

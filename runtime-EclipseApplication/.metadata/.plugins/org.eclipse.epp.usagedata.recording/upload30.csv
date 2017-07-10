@@ -1,0 +1,15 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,org.eclipse.wst.internet.cache,1498552542294
+stopped,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,org.eclipse.wst.common.uriresolver,1498552542294
+stopped,bundle,org.eclipse.wst.javascript.core,1.0.200.v200805140200,org.eclipse.wst.javascript.core,1498552542294
+stopped,bundle,org.eclipse.tptp.platform.models,4.5.2.v200901290906,org.eclipse.tptp.platform.models,1498552542294
+stopped,bundle,com.ibm.designer.wk.ide.resources,8.5.0.20080806-0615,com.ibm.designer.wk.ide.resources,1498552542294
+stopped,bundle,org.eclipse.datatools.modelbase.sql.edit,1.0.0.v200805152355,org.eclipse.datatools.modelbase.sql.edit,1498552542294
+stopped,bundle,org.eclipse.emf.ecore.change.edit,2.4.0.v200902171115,org.eclipse.emf.ecore.change.edit,1498552542294
+stopped,bundle,org.eclipse.emf.mapping.ecore2xml.ui,2.4.0.v200902171115,org.eclipse.emf.mapping.ecore2xml.ui,1498552542294
+stopped,bundle,org.eclipse.emf.databinding.edit,1.0.0.v200902171115,org.eclipse.emf.databinding.edit,1498552542294
+stopped,bundle,org.eclipse.datatools.modelbase.sql.query.edit,1.0.0.v200806070329,org.eclipse.datatools.modelbase.sql.query.edit,1498552542294
+stopped,bundle,org.eclipse.emf.mapping.xsd2ecore.editor,2.4.0.v200902171115,org.eclipse.emf.mapping.xsd2ecore.editor,1498552542294
+stopped,bundle,org.eclipse.emf.mapping.xsd2ecore,2.4.0.v200902171115,org.eclipse.emf.mapping.xsd2ecore,1498552542294
+stopped,bundle,org.eclipse.emf.mapping.ecore2ecore,2.4.0.v200902171115,org.eclipse.emf.mapping.ecore2ecore,1498552542294
+stopped,bundle,org.eclipse.emf.ecore.edit,2.4.1.v200902171115,org.eclipse.emf.ecore.edit,1498552542294

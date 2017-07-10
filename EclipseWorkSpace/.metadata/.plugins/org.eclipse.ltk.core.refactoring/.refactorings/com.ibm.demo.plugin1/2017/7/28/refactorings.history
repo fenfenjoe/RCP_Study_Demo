@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;com.ibm.demo.plugin1/img/login.jpg&apos; to &apos;head.jpg&apos;" description="Rename resource &apos;login.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="img/login.jpg" name="head.jpg" stamp="1499676152692" updateReferences="true"/>
+</session>

@@ -1,0 +1,247 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.mylyn.help.ui;singleton:=true
+Bundle-ManifestVersion: 2
+Created-By: 2.3 (IBM Corporation)
+Bundle-Name: Mylyn Help
+Bundle-Version: 3.0.5.v20090218-1800-e3x
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Eclipse.org
+Ant-Version: Apache Ant 1.7.0
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.eclipse.ui
+ .forms,org.eclipse.mylyn.tasks.core;bundle-version="[3.0.0,4.0.0)",or
+ g.eclipse.mylyn.tasks.ui;bundle-version="[3.0.0,4.0.0)",org.eclipse.m
+ ylyn.commons.ui;bundle-version="[3.0.0,4.0.0)",org.apache.ant;bundle-
+ version="1.7.0";resolution:=optional
+Export-Package: org.eclipse.mylyn.internal.help.ui.anttask;x-internal:
+ =true
+
+Name: doc/images/2.0M1/bugzilla-local-users.gif
+SHA1-Digest: ewnj2k3KkFSAZ4zFC6MlkigiaiA=
+
+Name: doc/images/2.0M2/repository-settings-proxy.gif
+SHA1-Digest: GUp1IlQJTL5INzGEJfNXtF6vYSQ=
+
+Name: cheatsheets/Query.xml
+SHA1-Digest: zAqv4Oh5uvZojxWVsDe3twRhxD0=
+
+Name: doc/images/2.0M3/tasks-content-assist.gif
+SHA1-Digest: GzwGnT+IDVyoEw/KoJBDTADp+zM=
+
+Name: doc/images/2.0M2/synchronize-view-add.gif
+SHA1-Digest: /taecSFcXpEg2YLJjTvFk4cpxq4=
+
+Name: doc/images/2.0M1/task-context-editor.gif
+SHA1-Digest: ii1qo3MfZADPlqD+RlopaV8+6OY=
+
+Name: intro/css/overview.css
+SHA1-Digest: KZ3L+DNZoAHCuJ2QoWmR3TyuOq0=
+
+Name: images/topiclabel/ov_mylyn48.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: plugin.xml
+SHA1-Digest: WcWC30dvIWTnmNRrXeIgpVGVr4Y=
+
+Name: doc/images/2.0M2/jira-java-hyperlinks.gif
+SHA1-Digest: vlT6xMMrDMUuft/lKDM0+Wba4ho=
+
+Name: doc/images/2.0M3/team-hyperlinks-annotations.gif
+SHA1-Digest: CQWvC/phuq7y20lF9NILov90XR4=
+
+Name: doc/book.css
+SHA1-Digest: Nw+bQgCQIMKgM71WDcyIqQenxrM=
+
+Name: doc/images/2.0M2/context-apply-attachments.gif
+SHA1-Digest: tqt2xx4cYujvVZRUbebHvZmuf+I=
+
+Name: doc/images/2.0M3/ui-usage-report.gif
+SHA1-Digest: WyA1mzzB82fyKf1pADvQvACjO/w=
+
+Name: images/topiclabel/ov_legend48_hov.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: org/eclipse/mylyn/internal/help/ui/anttask/MediaWikiImageFetcher
+ .class
+SHA1-Digest: /GXdFSkUULQKmpG6oUMv2wxmx7s=
+
+Name: doc/images/2.0M3/annotation-hyperlinks.gif
+SHA1-Digest: GwkzSHlOfeEvlQucZAhAZi1yqcM=
+
+Name: intro/overviewExtensionContent.xml
+SHA1-Digest: SB0mFoOHFGVWbv3DmjTQG/aRB5o=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: 09gN05tobgS/MdtqyTNQhOhB73M=
+
+Name: toc.xml
+SHA1-Digest: hc/13Z6BxNu9hGvENOtk9qnHcqE=
+
+Name: userguide/images/home.gif
+SHA1-Digest: 6ZkfXx5mGrHfp+Vr+YCQGGUsRIQ=
+
+Name: doc/images/2.0M2/context-quick-view.gif
+SHA1-Digest: G80mUhFoF24jI9ULltsTfWPz0Gw=
+
+Name: doc/images/mylyn-2.0.png
+SHA1-Digest: wqQxVOpUG8oOUuGPKOYaNxxZkZs=
+
+Name: doc/images/2.0/ui-legend.gif
+SHA1-Digest: pWPRUs3Ov3Tu1cxdLtyfeYNiuFA=
+
+Name: doc/images/2.0/working-sets-edit.gif
+SHA1-Digest: iGKqSsyv2pQ4z9pDrS25Q6Z0Xzg=
+
+Name: org/eclipse/mylyn/internal/help/ui/anttask/tasks.properties
+SHA1-Digest: CjSc0vocs+E7KPQXrkhazn1PbG8=
+
+Name: about.html
+SHA1-Digest: tbAP97WduhuCJ+f5zkndJKMe6vc=
+
+Name: images/mylyn-overview-small.gif
+SHA1-Digest: ue+8KqF2t8x5GCscg/x3pqKVHfU=
+
+Name: doc/new.html
+SHA1-Digest: 9YJTU91NP7PARhzB12P/q3DUpsc=
+
+Name: doc/images/2.0M3/tasks-working-sets.gif
+SHA1-Digest: KH3h08PZQ6ox9gdkPaRHk4jCm7I=
+
+Name: images/mylyn-overview.gif
+SHA1-Digest: SRqOw7Ia391z7Ec/lM/AGIaUUfE=
+
+Name: images/topiclabel/tu_query48.gif
+SHA1-Digest: dL85MVnDGcEo5T5nJcVlAire2zQ=
+
+Name: images/topiclabel/wn_mylyn48.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: cheatsheets/TaskFocus.xml
+SHA1-Digest: mCv49nrV5pqXBnmBsGsSyjOlSus=
+
+Name: doc/images/2.0M2/hyperlinks-text.gif
+SHA1-Digest: WuLn1Lvgvp2Q9kIwbXKMflmq3Sw=
+
+Name: doc/images/2.0/working-sets-switch.gif
+SHA1-Digest: mKUu4l0tTfkP9UOrLekfSwKauvg=
+
+Name: intro/css/whatsnew.css
+SHA1-Digest: LsVlLU4gfS86v0iiT3opIMaYGKQ=
+
+Name: doc/images/2.0M1/jira-editor-hyperlink.gif
+SHA1-Digest: EiM3icmN8hDTcKTlWR+Et9+j8g8=
+
+Name: doc/images/2.0M3/bugzilla-subtasks.gif
+SHA1-Digest: gsSPmKcZ3lCQWdhy1+ge7dqItC8=
+
+Name: doc/images/2.1M1/tasklist-search.png
+SHA1-Digest: RIWhtJiBbrPLPF9QGwVBHBwGKoQ=
+
+Name: icons/etool16/icons-legend.gif
+SHA1-Digest: xgG8zmMfgeE+2E8rvJGx/AxISDc=
+
+Name: intro/tutorialsExtensionContent.xml
+SHA1-Digest: KpEoD18iY8LsqTfTvnUGHIrjmso=
+
+Name: doc/images/2.0M2/trac-hyperlinks.gif
+SHA1-Digest: x9nN78x8iNI3M6YdqZ7UOqeQZDw=
+
+Name: doc/images/2.0M2/bugzilla-due-dates.gif
+SHA1-Digest: 5izNNC8jH3DyMvltky3YEw5MmRM=
+
+Name: userguide/Mylyn User Guide-toc.xml
+SHA1-Digest: LlwEMTKRTkNL9qQML/M3kcxpVog=
+
+Name: doc/notices.html
+SHA1-Digest: lmJpBL+9DIn2GP6VM/r8mAUHTFQ=
+
+Name: doc/images/2.0M1/bugzilla-time-tracking.gif
+SHA1-Digest: 6v35hzzGYA94NJ7UHGcm44Uq+M4=
+
+Name: doc/images/2.0/welcome.gif
+SHA1-Digest: sTeKlcq74grhen0iZmaKiRcRS+4=
+
+Name: doc/images/2.0M3/team-hyperlinks-history.gif
+SHA1-Digest: QMYYeG0i/OD5MXFsQv8b1Mv9mks=
+
+Name: images/topiclabel/tu_query48_hov.gif
+SHA1-Digest: dL85MVnDGcEo5T5nJcVlAire2zQ=
+
+Name: intro/css/tutorials.css
+SHA1-Digest: E5S778Ia7T5T6REswuJiO+NJw7c=
+
+Name: images/topiclabel/ov_legend48.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: doc/images/2.0M1/task-editor-progress.gif
+SHA1-Digest: 4LV1/RnU0GyxSCPlYV/KYIkyqhA=
+
+Name: images/topiclabel/ov_mylyn48_hov.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: images/topiclabel/wn_mylyn48_hov.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: doc/images/2.0M3/jira-attachments.gif
+SHA1-Digest: DmpMliwHdJGR3GKY2tda7+gSdn4=
+
+Name: doc/images/2.0M3/task-tooltip-incoming.gif
+SHA1-Digest: UyjMU7EEIqonIkhBhNSMBIXwPjk=
+
+Name: userguide/images/prev.gif
+SHA1-Digest: qx89HZcOfCNP8URrsbXsnJSbNro=
+
+Name: doc/images/2.0M1/java-editor-hyperlink.gif
+SHA1-Digest: joi7ivyCLG2ns2pGa0C+64uAIaw=
+
+Name: doc/images/2.0M3/ui-legend-connectors.gif
+SHA1-Digest: wDoKMvHAebGJ2+2ccmuz4G+c5BE=
+
+Name: images/topiclabel/tu_task48.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: userguide/Mylyn User Guide.html
+SHA1-Digest: W2hGmWq+4WU9D4KCHZwHVpBg99k=
+
+Name: doc/images/2.1M1/screenshot-capture.png
+SHA1-Digest: xq0/hEooBe4slxGQb5lTB7PW3Eg=
+
+Name: doc/images/2.1M1/spelling-corrections.png
+SHA1-Digest: EX0/FeQRCFIL5nRvO4eXnDFeYvI=
+
+Name: doc/images/2.1M1/bugzilla-custom-resolutions.png
+SHA1-Digest: 4sEd3lGNAIid3ByWpPML4OkLiMo=
+
+Name: doc/images/2.1M1/task-editor-hyperlinks.png
+SHA1-Digest: nx1sI9Ep8hWxsbZ8TQtk7yzGa80=
+
+Name: doc/images/2.0M2/task-editor-warning.gif
+SHA1-Digest: HuwBiDQbPwNSt4VFttrv4O9ZVBY=
+
+Name: intro/whatsnewExtensionContent.xml
+SHA1-Digest: gALtJuE75+spdWnk4RjYKanblMw=
+
+Name: images/topiclabel/tu_task48_hov.gif
+SHA1-Digest: CvXk3TRXwrcIYZy0JlhAysu5mbs=
+
+Name: doc/images/2.0M2/tasklist-schedule.gif
+SHA1-Digest: 6xOAdOzwlP+i0VwUXXsnVi5wpzs=
+
+Name: doc/images/2.0M3/tasklist-tree.gif
+SHA1-Digest: 1ZJQQt6d6vFbLS/84chkTasjMDM=
+
+Name: doc/images/2.1M1/bugzilla-search-keywords.png
+SHA1-Digest: ioTn8rcaU70T98xxajZJEQyjacE=
+
+Name: doc/images/2.1M1/bugzilla-cached-config.png
+SHA1-Digest: Y94O1nY0nBtE4yfYIZ5mmWf0cDo=
+
+Name: userguide/images/next.gif
+SHA1-Digest: lmLlDPE2WjVohevt+GNU13MFL5w=
+
+Name: doc/images/2.0M3/task-editor-error.gif
+SHA1-Digest: 9PdjYhSXLs8WKLSM2N28UPRKYvM=
+
+Name: doc/overview.html
+SHA1-Digest: USQip65RHDQK9fBHjybxokQxtvA=
+

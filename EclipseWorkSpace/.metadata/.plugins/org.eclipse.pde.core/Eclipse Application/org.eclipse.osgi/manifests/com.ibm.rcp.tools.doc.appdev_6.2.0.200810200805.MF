@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Generated-from: 1224463096000;type=2
+Bundle-ManifestVersion: 2
+Bundle-Name: Lotus Expeditor Application Developer's Guide
+Bundle-SymbolicName: com.ibm.rcp.tools.doc.appdev; singleton:=true
+Bundle-Version: 6.2.0.200810200805
+Bundle-Activator: org.eclipse.core.internal.compatibility.PluginActivator
+Bundle-Vendor: IBM
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.help,
+ org.eclipse.help.base;resolution:=optional,
+ org.eclipse.core.runtime.compatibility,
+ org.eclipse.core.runtime;bundle-version="2.1"
+Ant-Version: Apache Ant 1.7.0
+Created-By: 2.3 (IBM Corporation)
+Eclipse-LazyStart: true

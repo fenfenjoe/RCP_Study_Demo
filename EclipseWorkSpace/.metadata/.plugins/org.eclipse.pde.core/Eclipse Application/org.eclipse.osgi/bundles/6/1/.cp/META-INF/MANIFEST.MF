@@ -1,0 +1,323 @@
+Manifest-Version: 1.0
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-SymbolicName: org.eclipse.epp.usagedata.ui;singleton:=true
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.eclipse.epp.usagedata.internal.ui.Activator
+Bundle-Name: Usage Data UI Plug-in
+Bundle-Version: 1.0.1.R200809220400
+Eclipse-LazyStart: true
+Bundle-Vendor: Eclipse.org
+Require-Bundle: org.eclipse.ui;bundle-version="[3.3.0,4.0.0)",org.ecli
+ pse.core.runtime;bundle-version="[3.3.0,4.0.0)",org.eclipse.epp.usage
+ data.recording;bundle-version="[1.0.0,2.0.0)",org.eclipse.epp.usageda
+ ta.gathering;bundle-version="[1.0.0,2.0.0)",org.eclipse.ui.forms;bund
+ le-version="[3.3.0,4.0.0)",org.eclipse.ui.intro,org.eclipse.ui.intro.
+ universal
+Export-Package: org.eclipse.epp.usagedata.internal.ui;x-internal:=true
+ ,org.eclipse.epp.usagedata.internal.ui.preferences;x-internal:=true,o
+ rg.eclipse.epp.usagedata.internal.ui.preview;x-internal:=true,org.ecl
+ ipse.epp.usagedata.internal.ui.uploaders;x-internal:=true,org.eclipse
+ .epp.usagedata.internal.ui.wizards;x-internal:=true
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/RemoveFilterDialog
+ $2.class
+SHA1-Digest: ygFZkiaWRMnR3GkhWuEfSSmCumc=
+
+Name: html/legal.html
+SHA1-Digest: 9PwjT9wr1UytrrlghhlUts84eyc=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage.class
+SHA1-Digest: L+PYC8FqVk2wh1lA5/SkZPZBrmI=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$13.c
+ lass
+SHA1-Digest: sL8sO2HNCze2Cw5PATWatOFzk8k=
+
+Name: plugin.xml
+SHA1-Digest: nLFUFlCDCI8i6YpurDau3Hk2ddw=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/RemoveFilterDialog
+ $1.class
+SHA1-Digest: 0jPBy1H62Z0o6U5pTqBuPAIP0uE=
+
+Name: org/eclipse/epp/usagedata/internal/ui/uploaders/AskUserUploader.
+ class
+SHA1-Digest: At6oe4piNbRDRjiaZXc9+NOsd4k=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$Usag
+ eDataTableViewerColumn$2.class
+SHA1-Digest: DOE/1WB/fi0slbQNpAbEybPzp08=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$8.cl
+ ass
+SHA1-Digest: 2RVK6aJ9Y2gfQsKaf+Qojcqt9j4=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/SelectActionWizard
+ Page$3.class
+SHA1-Digest: afFO0DtYyAH8lOgTxHNZTPhmWBY=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/SelectActionWizard
+ Page.class
+SHA1-Digest: 8+2MfiMxYfL56rPXs1o/X1qBuTM=
+
+Name: intro/udc-intro.xml
+SHA1-Digest: PBVhiDYbswE/Xqc2y2/dz4c+OKw=
+
+Name: META-INF/eclipse.inf
+SHA1-Digest: KyT9FF7C7t86NoBoa2kZT3ZJBfw=
+
+Name: toc.xml
+SHA1-Digest: mv8ICrzrLmYepun5wgIJPZVpjAs=
+
+Name: org/eclipse/epp/usagedata/internal/ui/Activator.class
+SHA1-Digest: 5x4GAGpRk+OX6E+XpAUk1lez4/E=
+
+Name: icons/reload.gif
+SHA1-Digest: AFju2Q2+1Vh+Fu1wE08m60Jwc0g=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$20.c
+ lass
+SHA1-Digest: lcDtFGXpEwNodTelTcYOmOSKqB4=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage$2$3.class
+SHA1-Digest: Pi2ifNp6IFIITsL0xZc2k3Kq2n8=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$12.c
+ lass
+SHA1-Digest: iPN5EyqJLhnoL7h05nPGNgqhLHs=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/AddFilterDialog.cl
+ ass
+SHA1-Digest: FN8BacrAB4tVeteXEXHUNHXEnjo=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$14.c
+ lass
+SHA1-Digest: Zf6qlfcnCf/UGwNM1O4jeaVB7d8=
+
+Name: tocgettingstarted.xml
+SHA1-Digest: zAMrdESeGrkRYBv5v2Ljk6Afbvg=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/SelectActionWizard
+ Page$1.class
+SHA1-Digest: lPzBVXsBLAUmysUruiOO6793MPw=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$7.cl
+ ass
+SHA1-Digest: vcYVqGnNRtymejfhq/gD0nkGYkg=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$1.cl
+ ass
+SHA1-Digest: LdWbI8YifwZm0cqD1s46CWDkkQY=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreviewPage.class
+SHA1-Digest: iAFZfvgxdNF86sHd+iCXGAhUJBA=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/AskUserUploaderWiz
+ ard.class
+SHA1-Digest: UYTWTd3ClnPIMjvoKJ7pc654Hao=
+
+Name: about.html
+SHA1-Digest: N2ryxErpYOu8LHRq3kRgEF2XH4k=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$3.cl
+ ass
+SHA1-Digest: wXL+/8SS9CWRnskJWrR2sam6nkE=
+
+Name: html/toc.html
+SHA1-Digest: enmwAnuDs3j6Qz8Nvfk/6iScOZA=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/TermsOfUseWizardPa
+ ge.class
+SHA1-Digest: S1yKROuiOTc/83P16UJ0m8FDWtw=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage$3.class
+SHA1-Digest: TlO2IOk8xmlL0xmBustXSnBTYsI=
+
+Name: icons/udc_48_hov.png
+SHA1-Digest: VVbOhju10zhA8hHbym3mO6IAtMw=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage$4.class
+SHA1-Digest: hFFJzoYJr2mNT1WRUzTwd0QPp2A=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/TermsOfUseWizardPa
+ ge$1.class
+SHA1-Digest: RlkoU1FlvECngpW/EzQvHqqpD4s=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/RemoveFilterDialog
+ .class
+SHA1-Digest: tMjCPRCVKFD1BOQKQG+aJcwEBJk=
+
+Name: org/eclipse/epp/usagedata/internal/ui/uploaders/AskUserUploader$
+ 2.class
+SHA1-Digest: oa4DQSNRzX6ElGsaKD6BgfikDIY=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage$1.class
+SHA1-Digest: XpD82UTuX0N3aMaNr1+tuzJ0AJk=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$Usag
+ eDataColumnProvider.class
+SHA1-Digest: sIsm0da6re8bupcHv0pOznq7NNA=
+
+Name: html/gettingstarted/UploadWiz.png
+SHA1-Digest: ZqQnGcF3owYs+9o7R6jKP9bLmmc=
+
+Name: html/gettingstarted/terms.html
+SHA1-Digest: vFMR/RmikIb8jiC1DRFqD9LUFDQ=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage$2$2.class
+SHA1-Digest: ygHsxi7W0ZsDiDroWKgi28JOnXM=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataCaptu
+ rePreferencesPage$1$1.class
+SHA1-Digest: TchX8uvXSmXAhOmsOXKZ+yaxndY=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$17.c
+ lass
+SHA1-Digest: nxjaNxNUBQo5QYkBQnfgyTs3/L8=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$Usag
+ eDataTableViewerColumn$1.class
+SHA1-Digest: RC4MT0m1ssV6iwOiH7gYswmB8VI=
+
+Name: icons/usage.gif
+SHA1-Digest: pv/gLKTGfYTB+xUxhdPGFDg8/zQ=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$16.c
+ lass
+SHA1-Digest: lE7PHwokPxTJHlVSW21lWilKdSM=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$2.cl
+ ass
+SHA1-Digest: YoCqMeQHX+xyzcp7Wu2R5DStPOg=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UsageDataEventWrap
+ per.class
+SHA1-Digest: vphT6Wrlk8mjg/X1E8I2gqqKSE8=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$11.c
+ lass
+SHA1-Digest: 72e6iKeEySqVBDWuN74KfkcOdT8=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$Usag
+ eDataTableViewerColumn$3.class
+SHA1-Digest: DIfODqvfeyK1tZA4yjnqVdUhycc=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataCaptu
+ rePreferencesPage$1.class
+SHA1-Digest: dYq2nDBGkcgntB3qRLXLEUIxlcw=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$10.c
+ lass
+SHA1-Digest: Dj5V4CgZ7ziFSNz9WCcx9McqrMI=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage$2$1.class
+SHA1-Digest: q23X2ltjD1poKseaaRnw6uFNK/E=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$9.cl
+ ass
+SHA1-Digest: lB6CBArDHruLd2CaG8wlveEZtNw=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingTermsOfUsePage.class
+SHA1-Digest: osFnwTcYZV7eHcKoXMfBhkQ+r0k=
+
+Name: terms.html
+SHA1-Digest: 4KLERgXv1NjjbKxa2fVb818LiLU=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataUploa
+ dingPreferencesPage$2.class
+SHA1-Digest: TzoFW4CvfBq2Nd0YepS+8+CFQ+M=
+
+Name: icons/udc_48.png
+SHA1-Digest: RztS/KWXFlOm6Io4mp9NdZTSfy4=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$6.cl
+ ass
+SHA1-Digest: r7tuUtZQFwDED4wytqcrVajTHcE=
+
+Name: html/gettingstarted/how_does_it_work.html
+SHA1-Digest: EFnYOETIYAqhSp6WK/PHkMeg9gE=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/UploadPreviewPage.
+ class
+SHA1-Digest: lBrAmvHFjcOP6+98OxCSXatO5FU=
+
+Name: icons/upload.gif
+SHA1-Digest: oHEGBeAd6hOLaZgOdvifa5arptc=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$19.c
+ lass
+SHA1-Digest: p2+YGb+CHL17D/9BpDOwn2/lAos=
+
+Name: org/eclipse/epp/usagedata/internal/ui/uploaders/AskUserUploader$
+ 1.class
+SHA1-Digest: AObs/xMbOlIyPrUpo68MW2YInU0=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview.clas
+ s
+SHA1-Digest: BFJPpjvpxNd79c6HiQ1RkeLMKao=
+
+Name: html/gettingstarted/what_data_is_collected.html
+SHA1-Digest: 5MuapfmudBbUW2cwQdAx46xFJjc=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/AddFilterDialog$1.
+ class
+SHA1-Digest: it5lpYk7Hco1mkuzK+AlCxI/Tb4=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$19$1
+ .class
+SHA1-Digest: fhcPUIKvaHJyMZQofiDym3eApQQ=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$4.cl
+ ass
+SHA1-Digest: AAySyT13f406MCcmp5TOJVpyGgw=
+
+Name: icons/x.png
+SHA1-Digest: KDpVw69KBUKbfza3qbCNfFPR4xw=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/RemoveFilterDialog
+ $3.class
+SHA1-Digest: 7YcUg4kUGbOQlBFfS9Kfpk8iEcA=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preferences/UsageDataCaptu
+ rePreferencesPage.class
+SHA1-Digest: HFhpv+dQky/OE5u2Aq6X09lJkXM=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$18.c
+ lass
+SHA1-Digest: UxBmXWZ5Xoy1iO/6yueZsEXkjPY=
+
+Name: org/eclipse/epp/usagedata/internal/ui/wizards/SelectActionWizard
+ Page$2.class
+SHA1-Digest: p5JesueiIzmj6WgFN05+LbXncEk=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$5.cl
+ ass
+SHA1-Digest: J3k0yO/b7MznvNg6M3lU4EFQehw=
+
+Name: intro/udc.css
+SHA1-Digest: Zn26hKtvPTUik58piRszlZ5d8gA=
+
+Name: html/gettingstarted/UploadingPrefs.png
+SHA1-Digest: mSYJ1E6MfETnwueNWMff0oncV6A=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$15.c
+ lass
+SHA1-Digest: SnvbYGDp7it/925mQgnzLWKR010=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$21.c
+ lass
+SHA1-Digest: jHfqc2Jh8fN+1tcUd9LOOaE4M/M=
+
+Name: org/eclipse/epp/usagedata/internal/ui/preview/UploadPreview$Usag
+ eDataTableViewerColumn.class
+SHA1-Digest: GVJ3n3hK+D/zotJwCgf0dIuwva8=
+

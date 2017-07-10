@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: RCPClient Plug-in
+Bundle-SymbolicName: com.ibm.demo.RCPClient; singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.ibm.demo.rcpclient.Activator
+Bundle-Vendor: IBM
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.ibm.demo.plugin1;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy

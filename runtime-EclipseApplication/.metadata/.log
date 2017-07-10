@@ -1,0 +1,207 @@
+!SESSION 2017-06-27 09:10:22.117 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.sdk.ide
+Command-line arguments:  -product org.eclipse.sdk.ide -data D:\Dongyongzhao\EclipseWorkSpace/../runtime-EclipseApplication -dev file:D:/Dongyongzhao/EclipseWorkSpace/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 09:10:38.587
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@640f1a),sourcePriority=16384)
+!SESSION 2017-06-27 16:35:05.038 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.sdk.ide
+Command-line arguments:  -product org.eclipse.sdk.ide -data D:\Dongyongzhao\EclipseWorkSpace/../runtime-EclipseApplication -dev file:D:/Dongyongzhao/EclipseWorkSpace/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.305
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.305
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.305
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.305
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.305
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.305
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.305
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:35:21.306
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@17db660),sourcePriority=16384)
+
+!ENTRY com.ibm.pvc.tools.startup 4 0 2017-06-27 16:35:28.034
+!MESSAGE CWPSC0004W: 测试环境的配置目标路径无效
+
+!ENTRY com.ibm.pvc.tools.startup 4 0 2017-06-27 16:35:28.035
+!MESSAGE CWPSC0002W: 无法配置测试环境 : 用于桌面的 Lotus Expeditor
+!SESSION 2017-06-27 16:36:12.184 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -application com.ibm.demo.RCPClient.application
+Command-line arguments:  -application com.ibm.demo.RCPClient.application -data D:\Dongyongzhao\EclipseWorkSpace/../runtime-EclipseApplication -dev file:D:/Dongyongzhao/EclipseWorkSpace/.metadata/.plugins/org.eclipse.pde.core/Eclipse Application/dev.properties -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-06-27 16:36:14.208
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14c28db),sourcePriority=16384)
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk 2 0 2017-06-27 16:36:14.689
+!MESSAGE Could not locate the running profile instance. The eclipse.p2.data.area and eclipse.p2.profile properties may not be set correctly in this application's config.ini file.

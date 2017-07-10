@@ -1,0 +1,37 @@
+!SESSION 2017-05-26 15:27:04.755 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -dev file:D:/Dongyongzhao/EclipseWorkSpace/.metadata/.plugins/org.eclipse.pde.core/OSGiDemo/dev.properties -os win32 -ws win32 -arch x86 -console
+
+!ENTRY com.ibm.demo.OSGiDemo 4 0 2017-05-26 15:27:05.142
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: com.ibm.demo.osgidemo2.service; version="0.0.0"
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:305)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:355)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1074)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:616)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:508)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:299)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:489)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:211)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:321)
+
+!ENTRY org.eclipse.osgi 4 0 2017-05-26 15:27:05.145
+!MESSAGE Bundle initial@reference:file:../../Dongyongzhao/EclipseWorkSpace/com.ibm.demo.OSGiDemo/ was not resolved.
+
+!ENTRY org.eclipse.osgi 2 0 2017-05-26 15:27:05.150
+!MESSAGE One or more bundles are not resolved because the following root constraints are not resolved:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2017-05-26 15:27:05.150
+!MESSAGE Bundle initial@reference:file:../../Dongyongzhao/EclipseWorkSpace/com.ibm.demo.OSGiDemo/ was not resolved.
+!SUBENTRY 2 com.ibm.demo.OSGiDemo 2 0 2017-05-26 15:27:05.150
+!MESSAGE Missing imported package com.ibm.demo.osgidemo2.service_0.0.0.
+
+!ENTRY org.eclipse.osgi 2 0 2017-05-26 15:27:05.150
+!MESSAGE The following is a complete list of bundles which are not resolved, see the prior log entry for the root cause if it exists:
+!SUBENTRY 1 org.eclipse.osgi 2 0 2017-05-26 15:27:05.151
+!MESSAGE Bundle initial@reference:file:../../Dongyongzhao/EclipseWorkSpace/com.ibm.demo.OSGiDemo/ [4] was not resolved.
+!SUBENTRY 2 com.ibm.demo.OSGiDemo 2 0 2017-05-26 15:27:05.151
+!MESSAGE Missing imported package com.ibm.demo.osgidemo2.service_0.0.0.

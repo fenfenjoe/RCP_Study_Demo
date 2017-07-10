@@ -1,0 +1,13 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,org.eclipse.ui.externaltools,3.2.0.v20080514-1542,org.eclipse.ui.externaltools,1498552600990
+stopped,bundle,org.eclipse.debug.ui,3.4.2.v20090110_r342,org.eclipse.debug.ui,1498552601014
+stopped,bundle,org.eclipse.debug.core,3.4.1.v20090106_r342,org.eclipse.debug.core,1498552601015
+stopped,bundle,org.eclipse.wst.ws.service.policy.ui,1.0.2.v200809031518,org.eclipse.wst.ws.service.policy.ui,1498552601015
+stopped,bundle,com.ibm.commons.emfutil,8.5.0.20080806-0615,com.ibm.commons.emfutil,1498552601016
+stopped,bundle,org.eclipse.wst.common.environment,1.0.202.v200807161459,org.eclipse.wst.common.environment,1498552601016
+stopped,bundle,org.eclipse.datatools.connectivity.apache.derby,1.0.3.v200902070611,org.eclipse.datatools.connectivity.apache.derby,1498552601016
+stopped,bundle,org.eclipse.jsch.ui,1.1.100.I20080415,org.eclipse.jsch.ui,1498552601017
+stopped,bundle,org.eclipse.jsch.core,1.1.100.I20080604,org.eclipse.jsch.core,1498552601017
+stopped,bundle,org.eclipse.wst.internet.cache,1.0.301.v200805140020,org.eclipse.wst.internet.cache,1498552601017
+stopped,bundle,org.eclipse.wst.common.uriresolver,1.1.301.v200805140415,org.eclipse.wst.common.uriresolver,1498552601017
+stopped,bundle,org.eclipse.wst.javascript.core,1.0.200.v200805140200,org.eclipse.wst.javascript.core,1498552601018

@@ -1,0 +1,16 @@
+what,kind,bundleId,bundleVersion,description,time
+stopped,bundle,com.ibm.rcp.tools.junit,6.1.2.200810151002,com.ibm.rcp.tools.junit,1496213362610
+stopped,bundle,com.ibm.rcp.tools.propertybroker.templates,6.1.2.200810151002,com.ibm.rcp.tools.propertybroker.templates,1496213362612
+stopped,bundle,com.ibm.rcp.tools.ws.axis,6.2.0.200810151019,com.ibm.rcp.tools.ws.axis,1496213362615
+stopped,bundle,com.ibm.rcp.tools.wsdl.ui,6.1.2.200810200805,com.ibm.rcp.tools.wsdl.ui,1496213362663
+stopped,bundle,com.ibm.pvc.tools.bde,6.2.0.200810151002,com.ibm.pvc.tools.bde,1496213362663
+stopped,bundle,com.ibm.pvc.tools.bde.eclipse,6.2.0.200810151002,com.ibm.pvc.tools.bde.eclipse,1496213362663
+stopped,bundle,com.ibm.pvc.tools.productconfig,6.2.0.200810151016,com.ibm.pvc.tools.productconfig,1496213362663
+stopped,bundle,com.ibm.rcp.tools.webstart,6.2.0.200810151030,com.ibm.rcp.tools.webstart,1496213362698
+stopped,bundle,com.ibm.rcp.tools.platformbuilder,6.2.0.200810151016,com.ibm.rcp.tools.platformbuilder,1496213362702
+stopped,bundle,org.eclipse.tptp.platform.profile.server.core,4.2.102.v200901090100,org.eclipse.tptp.platform.profile.server.core,1496213362704
+stopped,bundle,org.eclipse.tptp.platform.jvmti.client,4.4.200.v200901090100,org.eclipse.tptp.platform.jvmti.client,1496213362706
+stopped,bundle,org.eclipse.tptp.platform.integration.pde,4.4.100.v200901090100,org.eclipse.tptp.platform.integration.pde,1496213362721
+stopped,bundle,org.eclipse.datatools.connectivity.oda.template.ui,3.0.6.v200805152355,org.eclipse.datatools.connectivity.oda.template.ui,1496213362723
+stopped,bundle,org.eclipse.pde.ui,3.4.0.v20090202,org.eclipse.pde.ui,1496213362723
+stopped,bundle,org.eclipse.ant.ui,3.3.1.v20090120_r342,org.eclipse.ant.ui,1496213362733

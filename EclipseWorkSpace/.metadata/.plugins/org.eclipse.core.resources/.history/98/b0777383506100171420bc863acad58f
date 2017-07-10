@@ -1,0 +1,10 @@
+package com.ibm.demo.rcpclient.util;
+
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Text;
+
+public class WidgetsFactory {
+	public Text getText(Composite parent,int style){
+		
+	}
+}
