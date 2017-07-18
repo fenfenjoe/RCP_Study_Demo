@@ -5045,3 +5045,854 @@ HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayef
 
 !ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-10 16:21:38.714
 !MESSAGE properties loading 'com.ibm.demo.plugin1'
+
+!ENTRY org.eclipse.ui.console 4 2 2017-07-10 18:16:45.254
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:648)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui.console 4 120 2017-07-10 18:16:45.254
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:648)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2017-07-11 10:07:37.585 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-11 10:07:46.547
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-11 10:07:46.562
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.event.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-11 10:07:50.900
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@14492fb),sourcePriority=16384)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-11 10:07:52.573
+!MESSAGE properties loading 'com.ibm.demo.RCPClient'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-11 10:07:52.573
+!MESSAGE properties loading 'com.ibm.demo.plugin1'
+!SESSION 2017-07-12 09:44:28.011 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-07-12 09:44:30.592
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-12 09:44:36.854
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-12 09:44:36.854
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.event.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-12 09:44:42.903
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@8321c8),sourcePriority=16384)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-12 09:44:49.469
+!MESSAGE properties loading 'com.ibm.demo.RCPClient'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-12 09:44:49.469
+!MESSAGE properties loading 'com.ibm.demo.plugin1'
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-07-12 15:00:43.002
+!MESSAGE Project facet jsr.base has not been defined. It is used in plugin com.ibm.pvc.tools.portlet.
+
+!ENTRY org.eclipse.ui.console 4 2 2017-07-12 18:03:39.045
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:648)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui.console 4 120 2017-07-12 18:03:39.137
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:648)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2017-07-13 09:34:04.734 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-13 09:34:17.829
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-13 09:34:17.851
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.event.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-13 09:34:21.364
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@10dd4c8),sourcePriority=16384)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-13 09:34:22.820
+!MESSAGE properties loading 'com.ibm.demo.RCPClient'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-13 09:34:22.822
+!MESSAGE properties loading 'com.ibm.demo.plugin1'
+!SESSION 2017-07-17 10:46:33.374 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-17 10:46:41.334
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-17 10:46:41.359
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.event.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.595
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.595
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.595
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.595
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.595
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.595
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.596
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:46:43.596
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6dddcf),sourcePriority=16384)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-17 10:46:44.824
+!MESSAGE properties loading 'com.ibm.demo.RCPClient'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-17 10:46:44.827
+!MESSAGE properties loading 'com.ibm.demo.plugin1'
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-07-17 10:50:26.189
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-17 10:50:26.189
+!MESSAGE Conflict for 'org.eclipse.wst.sse.ui.format':
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@2c63552c,sourcePriority=1073741824)
+HandlerActivation(commandId=org.eclipse.wst.sse.ui.format,
+	handler=org.eclipse.wst.sse.ui.internal.handlers.FormatHandler,
+	expression=org.eclipse.core.internal.expressions.ReferenceExpression@429a8fde,sourcePriority=1073741824)
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-07-17 11:12:56.311
+!MESSAGE Project facet jsr.base has not been defined. It is used in plugin com.ibm.pvc.tools.portlet.
+
+!ENTRY org.eclipse.tptp.platform.iac.administrator 4 0 2017-07-17 15:13:05.852
+!MESSAGE Cannot resolve IAC bundle ID org.eclipse.tptp.platform.ac.win_ia32
+
+!ENTRY org.eclipse.tptp.platform.iac.administrator 4 0 2017-07-17 15:13:05.860
+!MESSAGE Cannot resolve IAC bundle ID org.eclipse.tptp.platform.ac.win_ia32
+
+!ENTRY org.eclipse.tptp.platform.iac.administrator 4 0 2017-07-17 15:13:05.861
+!MESSAGE Access to IAC configuration file is denied.
+
+!ENTRY org.eclipse.osgi 2 0 2017-07-17 15:13:10.866
+!MESSAGE While loading class "org.eclipse.hyades.trace.ui.internal.core.TraceUIImages", thread "Thread[main,6,main]" timed out waiting (5000ms) for thread "Thread[Worker-24,5,main]" to finish starting bundle "reference:file:plugins\org.eclipse.hyades.trace.ui_4.4.103.v200901100100.jar [445]". To avoid deadlock, thread "Thread[main,6,main]" is proceeding but "org.eclipse.hyades.trace.ui.internal.core.TraceUIImages" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins\org.eclipse.hyades.trace.ui_4.4.103.v200901100100.jar" by thread "Worker-24".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:370)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:399)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.hyades.trace.ui.UIPlugin$1.run(UIPlugin.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3166)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:250)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3849)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3416)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 41 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1144)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:263)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:400)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:427)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:193)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findLocalClass(BundleLoader.java:370)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClassInternal(BundleLoader.java:446)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:399)
+	at org.eclipse.osgi.framework.internal.core.BundleLoader.findClass(BundleLoader.java:387)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:87)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.hyades.trace.ui.UIPlugin$1.run(UIPlugin.java:404)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:133)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3800)
+	at org.eclipse.swt.widgets.Display.msgFilterProc(Display.java:3166)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:250)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3849)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3416)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2384)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2348)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2200)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:495)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:288)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:490)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui 4 4 2017-07-17 15:16:05.402
+!MESSAGE Plugin de.jayefem.log4e, extension org.eclipse.ui.exportWizards, id de.jayefem.log4e.propertypages.rootPropertyPage: Unknown extension tag found: page
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-17 15:20:01.581
+!MESSAGE properties loading 'com.ibm.demo.RCPClient'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-17 15:25:20.235
+!MESSAGE properties loading 'com.ibm.demo.plugin1'
+
+!ENTRY org.eclipse.core.jobs 4 2 2017-07-17 16:31:53.154
+!MESSAGE An internal error occurred during: "Initializing Quick Diff".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: 
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:111)
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:97)
+	at org.eclipse.ui.internal.texteditor.quickdiff.DocumentLineDiffer.handleChanged(DocumentLineDiffer.java:879)
+	at org.eclipse.ui.internal.texteditor.quickdiff.DocumentLineDiffer$2.run(DocumentLineDiffer.java:656)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-17 16:44:59.805
+!MESSAGE properties loading 'com.ibm.demo.RCPClient'
+
+!ENTRY org.eclipse.hyades.trace.ui 4 0 2017-07-17 18:01:09.437
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: Exception in org.eclipse.hyades.trace.ui.UIPlugin.stop() of bundle org.eclipse.hyades.trace.ui.
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1066)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.ExceptionInInitializerError
+	at org.eclipse.hyades.trace.ui.UIPlugin.stop(UIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	... 19 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.hyades.ui.internal.util.ImageManager.add(ImageManager.java:119)
+	at org.eclipse.tptp.platform.common.ui.trace.internal.CommonUITraceImages.addImages(CommonUITraceImages.java:51)
+	at org.eclipse.hyades.ui.internal.util.ImageManager.checkImages(ImageManager.java:95)
+	at org.eclipse.hyades.ui.internal.util.ImageManager.getImageDescriptor(ImageManager.java:212)
+	at org.eclipse.hyades.trace.internal.ui.PDPluginImages.createManaged(PDPluginImages.java:164)
+	at org.eclipse.hyades.trace.internal.ui.PDPluginImages.<clinit>(PDPluginImages.java:102)
+	... 23 more
+Root exception:
+java.lang.ExceptionInInitializerError
+	at org.eclipse.hyades.trace.ui.UIPlugin.stop(UIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.hyades.ui.internal.util.ImageManager.add(ImageManager.java:119)
+	at org.eclipse.tptp.platform.common.ui.trace.internal.CommonUITraceImages.addImages(CommonUITraceImages.java:51)
+	at org.eclipse.hyades.ui.internal.util.ImageManager.checkImages(ImageManager.java:95)
+	at org.eclipse.hyades.ui.internal.util.ImageManager.getImageDescriptor(ImageManager.java:212)
+	at org.eclipse.hyades.trace.internal.ui.PDPluginImages.createManaged(PDPluginImages.java:164)
+	at org.eclipse.hyades.trace.internal.ui.PDPluginImages.<clinit>(PDPluginImages.java:102)
+	... 23 more
+
+!ENTRY org.eclipse.ui.console 4 2 2017-07-17 18:01:12.192
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:648)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+
+!ENTRY org.eclipse.ui.console 4 120 2017-07-17 18:01:12.193
+!MESSAGE An exception occurred during console notification
+!STACK 0
+org.eclipse.swt.SWTException: Device is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:3777)
+	at org.eclipse.swt.SWT.error(SWT.java:3695)
+	at org.eclipse.swt.SWT.error(SWT.java:3666)
+	at org.eclipse.swt.widgets.Display.error(Display.java:1180)
+	at org.eclipse.swt.widgets.Display.asyncExec(Display.java:648)
+	at org.eclipse.ui.internal.console.ConsoleDropDownAction.consolesRemoved(ConsoleDropDownAction.java:150)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:154)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:37)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:174)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:98)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:81)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:198)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:388)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$3.run(BundleContextImpl.java:1050)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:1046)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:457)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:531)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1104)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:655)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:312)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.suspend(SystemBundle.java:236)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:678)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:576)
+	at org.eclipse.osgi.framework.internal.core.OSGi.close(OSGi.java:41)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:424)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2017-07-18 09:02:51.714 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-18 09:03:18.442
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench.texteditor 4 0 2017-07-18 09:03:18.458
+!MESSAGE The 'org.eclipse.wst.jsdt.web.ui.internal.hyperlink.script.event.JSPJavaHyperlinkDetector' extension from plug-in 'org.eclipse.wst.jsdt.web.ui' to the 'org.eclipse.ui.workbench.texteditor.hyperlinkDetectors' extension point will be ignored because it contains invalid attributes.
+
+!ENTRY org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ModifyAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ErrorLogAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.AddAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ExchangeAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.DeclareAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.ReplaceAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2017-07-18 09:03:26.522
+!MESSAGE Conflict for 'AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction':
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::de.jayefem.log4e.RootContribution/de.jayefem.log4e.RemoveAction,
+	handler=ActionDelegateHandlerProxy(null,de.jayefem.log4e.popup.actions.ResourcePopupAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@a2d304),sourcePriority=16384)
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-18 09:03:31.530
+!MESSAGE properties loading 'com.ibm.demo.RCPClient'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-07-18 09:03:31.546
+!MESSAGE properties loading 'com.ibm.demo.plugin1'

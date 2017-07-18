@@ -1,0 +1,85 @@
+!SESSION 2017-07-17 15:22:36.248 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 4 0 2017-07-17 15:22:38.586
+!MESSAGE Application error
+!STACK 1
+java.lang.Error: Unresolved compilation problem: 
+	arg0 cannot be resolved
+
+	at com.ibm.demo.rcpclient.views.LoginComposite.createControl(LoginComposite.java:69)
+	at com.ibm.demo.rcpclient.views.LoginComposite.init(LoginComposite.java:43)
+	at com.ibm.demo.rcpclient.views.LoginComposite.<init>(LoginComposite.java:31)
+	at com.ibm.demo.rcpclient.Application.start(Application.java:31)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2017-07-17 15:22:45.972 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 4 0 2017-07-17 15:22:46.719
+!MESSAGE Application error
+!STACK 1
+java.lang.Error: Unresolved compilation problem: 
+	arg0 cannot be resolved
+
+	at com.ibm.demo.rcpclient.views.LoginComposite.createControl(LoginComposite.java:69)
+	at com.ibm.demo.rcpclient.views.LoginComposite.init(LoginComposite.java:43)
+	at com.ibm.demo.rcpclient.views.LoginComposite.<init>(LoginComposite.java:31)
+	at com.ibm.demo.rcpclient.Application.start(Application.java:31)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)
+!SESSION 2017-07-17 15:24:19.867 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.osgi 4 0 2017-07-17 15:24:20.779
+!MESSAGE Application error
+!STACK 1
+java.lang.NullPointerException
+	at com.ibm.demo.rcpclient.views.LoginComposite.createControl(LoginComposite.java:51)
+	at com.ibm.demo.rcpclient.views.LoginComposite.init(LoginComposite.java:43)
+	at com.ibm.demo.rcpclient.views.LoginComposite.<init>(LoginComposite.java:31)
+	at com.ibm.demo.rcpclient.Application.start(Application.java:31)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:193)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:386)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:549)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:504)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1236)

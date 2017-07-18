@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.ibm.demo.rcpclient.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="RCP Perspective"
+            class="com.ibm.demo.rcpclient.Perspective"
+            id="com.ibm.demo.RCPClient.perspective">
+      </perspective>
+   </extension>
+	 <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="ContentView"
+            class="com.ibm.demo.plugin1.views.ContentView"
+            id="com.ibm.demo.plugin1.views.ContentView">
+      </view>
+      <view
+            name="NavView"
+            class="com.ibm.demo.plugin1.views.NavView"
+            id="com.ibm.demo.plugin1.views.NavView">
+      </view>
+   </extension>
+    <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.ibm.demo.plugin1.editors.Editor"
+            id="com.ibm.demo.plugin1.editors.Editor"
+            name="Sample Editor">
+      </editor>
+   </extension>
+    <extension
+          id="product"
+          point="org.eclipse.core.runtime.products">
+       <product
+             application="com.ibm.demo.RCPClient.application"
+             name="RCPClientDemo">
+          <property
+                name="appName"
+                value="RCPClientDemo">
+          </property>
+          <property
+                name="aboutImage"
+                value="img/index.png">
+          </property>
+          <property
+                name="windowImages"
+                value="icons/alt_window_16.gif,icons/alt_window_32.gif">
+          </property>
+       </product>
+    </extension>
+</plugin>

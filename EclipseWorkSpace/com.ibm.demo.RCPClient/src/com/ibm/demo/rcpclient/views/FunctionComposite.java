@@ -32,9 +32,7 @@ public class FunctionComposite extends Composite {
 //		this.pack();
 	}
 	public void createControl(Composite parent) {
-		if(mainMenu==null){
-			mainMenu=WidgetsFactory.createMenu(this.getShell(),SWT.None, null);
-		}
+
 		if(contentLabel==null){
 			contentLabel=new Label(this.getShell(),SWT.BORDER);
 			GridData layoutdata=new GridData(SWT.FILL,SWT.FILL,true,true);
@@ -47,7 +45,10 @@ public class FunctionComposite extends Composite {
 			GridData layoutdata=new GridData(SWT.FILL,SWT.FILL,true,true);
 			contentComposite.setLayoutData(layoutdata);
 		}
-		createMenu();
+		if(mainMenu==null){
+			mainMenu=WidgetsFactory.createMenu(this.getShell(),SWT.None, null);
+			createMenu();
+		}
 	}
 	public void createMenu(){
 		MenuItem item1=WidgetsFactory.createCascadeMenuItem(this.getShell(),mainMenu,"&Button",null);

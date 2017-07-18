@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830805
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830805
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830805
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830805
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830806
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830806
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830806
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830806
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830806
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830806
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830821
+activated,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1499842832401
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842835005
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.file.save,1499842841377
+started,bundle,org.eclipse.emf.common,2.4.0.v200902171115,org.eclipse.emf.common,1499842841622
+started,bundle,org.eclipse.emf.ecore,2.4.2.v200902171115,org.eclipse.emf.ecore,1499842841783
+started,bundle,org.eclipse.jem.util,2.0.100.v200805140020,org.eclipse.jem.util,1499842841798
+started,bundle,org.eclipse.wst.common.frameworks,1.1.201.v200811060900,org.eclipse.wst.common.frameworks,1499842841799
+started,bundle,org.eclipse.wst.common.emf,1.1.203.v200811022047,org.eclipse.wst.common.emf,1499842841841
+started,bundle,org.eclipse.jst.j2ee.core,1.1.203.v200901221030,org.eclipse.jst.j2ee.core,1499842841860
+started,bundle,org.eclipse.jem,2.0.202.v200810282000,org.eclipse.jem,1499842841874
+started,bundle,org.eclipse.emf.ecore.xmi,2.4.1.v200902171115,org.eclipse.emf.ecore.xmi,1499842841879
+started,bundle,org.eclipse.jst.jee,1.0.103.v200901220530,org.eclipse.jst.jee,1499842842126
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.1.202.v200901292145,org.eclipse.wst.common.frameworks.ui,1499842842240
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.1.202.v200811131900,org.eclipse.wst.common.emfworkbench.integration,1499842842748

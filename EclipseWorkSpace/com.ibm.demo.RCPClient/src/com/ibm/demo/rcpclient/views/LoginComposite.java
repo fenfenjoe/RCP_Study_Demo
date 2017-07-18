@@ -1,11 +1,10 @@
 package com.ibm.demo.rcpclient.views;
 
-import java.io.File;
-import java.io.IOException;
-
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.custom.CLabel;
+import org.eclipse.swt.events.PaintEvent;
+import org.eclipse.swt.events.PaintListener;
 import org.eclipse.swt.events.SelectionEvent;
 import org.eclipse.swt.events.SelectionListener;
 import org.eclipse.swt.graphics.Image;
@@ -13,6 +12,7 @@ import org.eclipse.swt.layout.FillLayout;
 import org.eclipse.swt.layout.GridData;
 import org.eclipse.swt.layout.GridLayout;
 import org.eclipse.swt.widgets.Button;
+import org.eclipse.swt.widgets.Canvas;
 import org.eclipse.swt.widgets.Composite;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.swt.widgets.Label;
@@ -21,7 +21,12 @@ import org.eclipse.swt.widgets.Text;
 
 import com.ibm.demo.plugin1.resource.IResourceKey;
 import com.ibm.demo.rcpclient.Activator;
-
+import com.ibm.demo.rcpclient.util.TestComposite;
+/**
+ * 
+ * @author Dong Yongzhao
+ *
+ */
 public class LoginComposite extends Composite {
 	public LoginComposite(Composite parent, int style) {
 		super(parent, style);
@@ -30,7 +35,7 @@ public class LoginComposite extends Composite {
 	}
 	private Composite contentPanel;
 	private Composite buttonPanel;
-	private Button loginButton,registerButton,exitButton,nextButton;
+	private Button loginButton,registerButton,exitButton,nextButton,testButton;
 	private Text accountText,passwordText;
 	private boolean isLogin,isRegister=false;
 	private static final String plugin1ID="com.ibm.demo.plugin1";
@@ -41,27 +46,10 @@ public class LoginComposite extends Composite {
 		createControl(this);
 		this.pack();
 	}
+
 	public void createControl(Composite parent) {
 		GridData layoutData;
-		String text="";
-		CLabel imgLabel=new CLabel(parent,SWT.NONE);
-		File directory=new File("");
-		try {
-			text=directory.getCanonicalPath();
-		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-		}
-//		imgLabel.setText(text);
-		ImageDescriptor idor=Activator.imageDescriptorFromPlugin(this.plugin1ID, IResourceKey.headImg);
-		Image img=idor.createImage();
-		imgLabel.setImage(img);
-//		Image img=new Image(this.getDisplay(),"img/login.jpg");
-//		imgLabel.setImage(img);
-		layoutData = new GridData(GridData.HORIZONTAL_ALIGN_CENTER,
-				GridData.VERTICAL_ALIGN_CENTER,true,true);
-		layoutData.horizontalSpan=5;
-		imgLabel.setLayoutData(layoutData);
+		insertImage(parent);
 		
 		if(this.contentPanel==null){
 			this.contentPanel=new Composite(parent,SWT.BORDER);	
@@ -176,12 +164,34 @@ public class LoginComposite extends Composite {
 				
 			});
 		}
+		if(this.testButton==null){
+			this.testButton=new Button(buttonPanel,SWT.PUSH);
+			testButton.setText("测试");
+			layoutData = new GridData(SWT.CENTER,
+					SWT.CENTER,true,false);
+			layoutData.horizontalSpan=1;
+			testButton.setLayoutData(layoutData);
+			testButton.addSelectionListener(new SelectionListener(){
+
+				@Override
+				public void widgetDefaultSelected(SelectionEvent e) {
+					
+				}
+
+				@Override
+				public void widgetSelected(SelectionEvent e) {
+					// TODO Auto-generated method stub
+					__testButtonSelect();
+				}
+				
+			});
+		}
 		if(this.nextButton==null){
 			this.nextButton=new Button(buttonPanel,SWT.PUSH);
 			nextButton.setText("SWT功能集");
 			layoutData = new GridData(SWT.CENTER,
 					SWT.CENTER,true,false);
-			layoutData.horizontalSpan=3;
+			layoutData.horizontalSpan=2;
 			nextButton.setLayoutData(layoutData);
 			nextButton.addSelectionListener(new SelectionListener(){
 
@@ -198,6 +208,7 @@ public class LoginComposite extends Composite {
 				
 			});
 		}
+		
 	}
 	//Listener
 	private void __loginButtonSelect(){
@@ -215,9 +226,24 @@ public class LoginComposite extends Composite {
 		window1.setSize(300, 300);
 		window1.setLocation(Display.getCurrent().getClientArea().width / 2 - window1.getShell().getSize().x/2, Display.getCurrent() 
                 .getClientArea().height / 2 - window1.getSize().y/2); 
-		window1.setText("功能集");
+		window1.setText("测试");
 		window1.setLayout(new FillLayout(SWT.VERTICAL));
 		FunctionComposite fc=new FunctionComposite(window1,SWT.None);
+		window1.open();
+		while(!window1.isDisposed()){
+			 if(!window1.getDisplay().readAndDispatch()) {
+				 window1.getDisplay().sleep();
+			   }
+		}
+	}
+	private void __testButtonSelect(){
+		Shell window1=new Shell(this.getDisplay(),SWT.SHELL_TRIM);
+		window1.setSize(300, 300);
+		window1.setLocation(Display.getCurrent().getClientArea().width / 2 - window1.getShell().getSize().x/2, Display.getCurrent() 
+                .getClientArea().height / 2 - window1.getSize().y/2); 
+		window1.setText("功能集");
+		window1.setLayout(new FillLayout(SWT.VERTICAL));
+		TestComposite fc=new TestComposite(window1,SWT.None);
 		window1.open();
 		while(!window1.isDisposed()){
 			 if(!window1.getDisplay().readAndDispatch()) {
@@ -231,5 +257,28 @@ public class LoginComposite extends Composite {
 	public boolean isRegister() {
 		return isRegister;
 	}
-	
+	/**
+	 * 插入图片
+	 * @param parent
+	 */
+	public void insertImage(Composite parent){
+		GridData layoutData;
+		CLabel imgLabel=new CLabel(parent,SWT.NONE);
+		ImageDescriptor idor=Activator.imageDescriptorFromPlugin(this.plugin1ID, IResourceKey.indexImg);
+		final Image img=idor.createImage();
+		final int imgWidth = img.getBounds().width;
+		final int imgHeight = img.getBounds().height;
+		Canvas canvas = new Canvas(parent, SWT.DOUBLE_BUFFERED);
+		canvas.addPaintListener(new PaintListener() {
+		      @Override
+		      public void paintControl(PaintEvent event) {
+		          // TODO Auto-generated method stub
+		          event.gc.drawImage(img, 0, 0, imgWidth, imgHeight, 0, 0, event.width, event.height);
+		     }
+		});
+		layoutData = new GridData(SWT.FILL,
+				SWT.FILL,true,true);
+		layoutData.horizontalSpan=5;
+		imgLabel.setLayoutData(layoutData);
+	}
 }

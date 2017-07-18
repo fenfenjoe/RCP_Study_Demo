@@ -1,0 +1,26 @@
+what,kind,bundleId,bundleVersion,description,time
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499842707865
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499842708003
+executed,command,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.edit.text.java.organize.imports,1499842712701
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499842715175
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499842717397
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842754167
+started,bundle,org.eclipse.wst.server.core,1.1.3.v20090209,org.eclipse.wst.server.core,1499842775058
+started,bundle,org.eclipse.wst.server.ui,1.1.4.v20090128,org.eclipse.wst.server.ui,1499842775076
+started,bundle,com.ibm.pvc.tools.j2ee,6.2.0.200810151012,com.ibm.pvc.tools.j2ee,1499842775253
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499842788411
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499842791075
+activated,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.PackageExplorer,1499842794043
+activated,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1499842805084
+activated,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.PackageExplorer,1499842828180
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789
+no handler,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.text.contentAssist.proposals,1499842830789

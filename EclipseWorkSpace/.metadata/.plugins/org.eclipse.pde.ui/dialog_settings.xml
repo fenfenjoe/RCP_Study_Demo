@@ -8,6 +8,17 @@
 	<item value="Equinox" key="targetName"/>
 	<section name="dependenciesView">
 	</section>
+	<section name="ProductExportWizard">
+		<item value="false" key="exportSource"/>
+		<item value="true" key="syncProduct"/>
+		<item value="/com.ibm.demo.RCPClient/RCPClient.product" key="productConfig1"/>
+		<item value="false" key="p2metadata"/>
+		<item value="true" key="exportDirectory"/>
+		<item value="/com.ibm.demo.RCPClient/RCPClient.product" key="productConfig0"/>
+		<item value="D:\Dongyongzhao\EclipseWorkSpace\RCPProduct" key="destination1"/>
+		<item value="D:\Dongyongzhao\EclipseWorkSpace\RCPProduct" key="destination0"/>
+		<item value="eclipse" key="productRoot"/>
+	</section>
 	<section name="org.eclipse.pde.ui.PLUGIN_STATUS_DIALOG">
 		<item value="416" key="DIALOG_WIDTH"/>
 		<item value="56" key="DIALOG_Y_ORIGIN"/>

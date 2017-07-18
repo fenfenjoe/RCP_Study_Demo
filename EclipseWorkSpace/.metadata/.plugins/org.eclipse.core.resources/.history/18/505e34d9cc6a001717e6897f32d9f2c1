@@ -1,0 +1,12 @@
+package com.ibm.demo.rcpclient.util;
+
+import org.eclipse.swt.widgets.Composite;
+
+public class TestComposite extends Composite {
+
+	TestComposite() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.ibm.demo.rcpclient.util;
+
+import org.eclipse.jface.resource.ImageDescriptor;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.custom.CLabel;
+import org.eclipse.swt.events.PaintEvent;
+import org.eclipse.swt.events.PaintListener;
+import org.eclipse.swt.graphics.Image;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.widgets.Canvas;
+import org.eclipse.swt.widgets.Composite;
+
+import com.ibm.demo.plugin1.resource.IResourceKey;
+import com.ibm.demo.rcpclient.Activator;
+
+public class ToolUtils {
+	/**
+	 * ≤Â»ÎÕº∆¨
+	 * @param parent
+	 */
+	public void insertImage(Composite parent,String pluginID){
+		GridData layoutData;
+		CLabel imgLabel=new CLabel(parent,SWT.NONE);
+		ImageDescriptor idor=Activator.imageDescriptorFromPlugin(pluginID, IResourceKey.indexImg);
+		final Image img=idor.createImage();
+		final int imgWidth = img.getBounds().width;
+		final int imgHeight = img.getBounds().height;
+		Canvas canvas = new Canvas(parent, SWT.DOUBLE_BUFFERED);
+		canvas.addPaintListener(new PaintListener() {
+		      @Override
+		      public void paintControl(PaintEvent event) {
+		          // TODO Auto-generated method stub
+		          event.gc.drawImage(img, 0, 0, imgWidth, imgHeight, 0, 0, event.width, event.height);
+		     }
+		});
+		layoutData = new GridData(SWT.FILL,
+				SWT.FILL,true,true);
+		layoutData.horizontalSpan=5;
+		imgLabel.setLayoutData(layoutData);
+	}
+}

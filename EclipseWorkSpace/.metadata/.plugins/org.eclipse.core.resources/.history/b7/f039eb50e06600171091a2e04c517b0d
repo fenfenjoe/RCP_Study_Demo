@@ -1,0 +1,40 @@
+package com.ibm.demo.plugin1.editors;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Label;
+import org.eclipse.swt.widgets.Layout;
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.ui.editors.text.TextEditor;
+
+public class Editor extends TextEditor {
+
+	private ColorManager colorManager;
+	private Label labelItem;
+	private Text textItem;
+	public Editor() {
+		super();
+		colorManager = new ColorManager();
+		setSourceViewerConfiguration(new XMLConfiguration(colorManager));
+		setDocumentProvider(new XMLDocumentProvider());
+		
+	}
+	public void createPartControl(Composite parent) {
+		Layout layout =new FillLayout();
+		parent.setLayout(layout);
+		if(textItem==null){
+			textItem=new Text(parent,SWT.None);
+			textItem.setText("Content");
+		}
+		if(labelItem==null){
+			labelItem=new Label(parent,SWT.None);
+			labelItem.setText("Chat here");
+		}
+	};
+	public void dispose() {
+		colorManager.dispose();
+		super.dispose();
+	}
+
+}

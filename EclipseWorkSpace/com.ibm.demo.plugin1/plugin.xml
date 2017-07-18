@@ -53,5 +53,14 @@
             file="contexts.xml">
       </contexts>
    </extension>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.ibm.demo.plugin1.editors.Editor"
+            icon="icons/sample.gif"
+            id="com.ibm.demo.plugin1.editors.Editor"
+            name="Sample Editor">
+      </editor>
+   </extension>
 
 </plugin>

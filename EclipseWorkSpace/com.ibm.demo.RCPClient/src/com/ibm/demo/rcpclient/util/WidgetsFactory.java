@@ -12,12 +12,16 @@ import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Menu;
 import org.eclipse.swt.widgets.MenuItem;
 import org.eclipse.swt.widgets.Text;
-
+/**
+ * SWT²å¼þÑ§Ï°
+ * @author Dong Yongzhao
+ *
+ */
 public class WidgetsFactory {
 	public static Text createText(Composite parent,int style,String labelname){
 		Text text=null;
 		Label label=new Label(parent,SWT.RIGHT);
-		label.setText("ÕËºÅ:");
+		label.setText(labelname+":");
 		GridData layoutData = new GridData(SWT.END,
 				SWT.CENTER,true,false);
 		label.setLayoutData(layoutData);

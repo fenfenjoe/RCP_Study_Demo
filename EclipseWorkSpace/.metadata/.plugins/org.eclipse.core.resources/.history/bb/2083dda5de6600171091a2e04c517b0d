@@ -1,0 +1,24 @@
+package com.ibm.demo.plugin1.editors;
+
+import org.eclipse.swt.widgets.Text;
+import org.eclipse.ui.editors.text.TextEditor;
+
+public class Editor extends TextEditor {
+
+	private ColorManager colorManager;
+	private Text textItem;
+	public Editor() {
+		super();
+		colorManager = new ColorManager();
+		setSourceViewerConfiguration(new XMLConfiguration(colorManager));
+		setDocumentProvider(new XMLDocumentProvider());
+	}
+	public void createPartControl(org.eclipse.swt.widgets.Composite parent) {
+		
+	};
+	public void dispose() {
+		colorManager.dispose();
+		super.dispose();
+	}
+
+}

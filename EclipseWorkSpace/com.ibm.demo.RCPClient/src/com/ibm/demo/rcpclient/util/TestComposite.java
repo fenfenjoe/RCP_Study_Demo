@@ -1,0 +1,33 @@
+package com.ibm.demo.rcpclient.util;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.widgets.Composite;
+import org.eclipse.swt.widgets.Label;
+/**
+ * 在这里调用并测试新写的方法
+ * @author Dong Yongzhao
+ *
+ */
+public class TestComposite extends Composite {
+	private Label label,result;
+	public TestComposite(Composite parent, int style) {
+		super(parent, style);
+		// TODO Auto-generated constructor stub
+		init(parent);
+		testMethodHere();
+	}
+	public void init(Composite parent){
+		parent.setLayout(new FillLayout());
+		label=new Label(parent,SWT.None);
+		label.setText("Result:");
+		result=new Label(parent,SWT.None);
+		
+	}
+	public void testMethodHere(){
+		System.out.println("Start testing.");
+		result.setText(ToolUtils.manageFile());
+		
+	}
+
+}

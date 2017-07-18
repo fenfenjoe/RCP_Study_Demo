@@ -1,5 +1,0 @@
-package com.ibm.demo.rcpclient.util;
-
-public class ListenerFactory {
-
-}

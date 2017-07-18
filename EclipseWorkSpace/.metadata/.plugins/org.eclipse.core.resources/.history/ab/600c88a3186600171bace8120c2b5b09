@@ -1,0 +1,44 @@
+package com.ibm.demo.rcpclient;
+
+import org.eclipse.jface.action.IMenuManager;
+import org.eclipse.jface.action.MenuManager;
+import org.eclipse.swt.widgets.MenuItem;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.actions.ActionFactory;
+import org.eclipse.ui.actions.ActionFactory.IWorkbenchAction;
+import org.eclipse.ui.application.ActionBarAdvisor;
+import org.eclipse.ui.application.IActionBarConfigurer;
+//菜单栏初始化
+public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
+	private IWorkbenchAction action1;
+	private IWorkbenchAction action2;
+    public ApplicationActionBarAdvisor(IActionBarConfigurer configurer) {
+        super(configurer);
+    }
+    //添加动作
+    protected void makeActions(IWorkbenchWindow window) {
+    	//有一些通用的Action已写好在ActionFactory中可以通过以下方式注册使用。
+    	action1=ActionFactory.QUIT.create(window);
+    	//每个动作都要注册，这样在关闭app时，动作资源才会被释放
+    	register(action1);
+    	
+    	action2=ActionFactory.ABOUT.create(window);
+    	register(action2);
+    }
+    //添加菜单
+    protected void fillMenuBar(IMenuManager menuBar) {
+    	//MenuManager  --子菜单	//Action  --菜单项
+    	//初始化时一定要对菜单进行命名
+    	MenuManager menuManager=new MenuManager("&Basic","Basic");
+    	//添加菜单项
+    	menuManager.add(action1);
+    	//添加子菜单
+    	MenuManager itemmenuManager=new MenuManager("&About","About");
+    	itemmenuManager.add(action2);
+    	menuBar.add(itemmenuManager);
+    	
+    	menuBar.add(menuManager);
+    	
+    }
+    
+}

@@ -1,0 +1,25 @@
+package com.ibm.demo.rcpclient;
+
+import org.eclipse.jface.action.IMenuManager;
+import org.eclipse.jface.action.MenuManager;
+import org.eclipse.swt.widgets.MenuItem;
+import org.eclipse.ui.IWorkbenchWindow;
+import org.eclipse.ui.application.ActionBarAdvisor;
+import org.eclipse.ui.application.IActionBarConfigurer;
+
+public class ApplicationActionBarAdvisor extends ActionBarAdvisor {
+
+    public ApplicationActionBarAdvisor(IActionBarConfigurer configurer) {
+        super(configurer);
+    }
+    //添加动作
+    protected void makeActions(IWorkbenchWindow window) {
+//    	register(action);
+    }
+    //添加菜单
+    protected void fillMenuBar(IMenuManager menuBar) {
+    	MenuManager menuManager=new MenuManager();
+    	menuManager.add(menuManager);
+    }
+    
+}

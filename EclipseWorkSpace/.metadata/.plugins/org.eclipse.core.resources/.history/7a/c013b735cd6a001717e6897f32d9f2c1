@@ -1,0 +1,21 @@
+package com.ibm.demo.rcpclient.util;
+
+import org.eclipse.swt.layout.FillLayout;
+import org.eclipse.swt.widgets.Composite;
+
+public class TestComposite extends Composite {
+
+	public TestComposite(Composite parent, int style) {
+		super(parent, style);
+		// TODO Auto-generated constructor stub
+		init(parent);
+		testMethodHere();
+	}
+	public void init(Composite parent){
+		parent.setLayout(new FillLayout());
+	}
+	public void testMethodHere(){
+		
+	}
+
+}

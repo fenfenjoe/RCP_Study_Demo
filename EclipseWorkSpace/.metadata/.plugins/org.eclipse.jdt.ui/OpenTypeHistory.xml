@@ -2,4 +2,6 @@
 <typeInfoHistroy>
 <typeInfo handle="=com.ibm.demo.plugin1/src&lt;com.ibm.demo.plugin1.views{NavView.java[NavView" modifiers="1" timestamp="1499330526674"/>
 <typeInfo handle="=com.ibm.demo.plugin1/src&lt;com.ibm.demo.plugin1.datasource{Node.java[Node" modifiers="1" timestamp="1499414688124"/>
+<typeInfo handle="=com.ibm.demo.plugin1/D:\/eclipse2\/eclipse2\/plugins\/org.eclipse.ui.workbench_3.4.2.M20090127-1700.jar&lt;org.eclipse.ui(IEditorPart.class[IEditorPart" modifiers="1537" timestamp="1235371806000"/>
+<typeInfo handle="=com.ibm.demo.RCPClient/D:\/eclipse2\/eclipse2\/plugins\/org.eclipse.swt.win32.win32.x86_3.4.1.v3452b.jar&lt;org.eclipse.swt.widgets(Composite.class[Composite" modifiers="33" timestamp="1235371806000"/>
 </typeInfoHistroy>

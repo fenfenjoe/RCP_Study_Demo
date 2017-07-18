@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<bundle bundleID="836" class="com.ibm.demo.rcpclient.Activator" name="RCPClient Plug-in" project="com.ibm.demo.RCPClient" provider="IBM"/>
+	<bundle bundleID="838" class="com.ibm.demo.plugin1.Activator" name="Plugin1 Plug-in" project="com.ibm.demo.plugin1" provider="IBM"/>
+</map>

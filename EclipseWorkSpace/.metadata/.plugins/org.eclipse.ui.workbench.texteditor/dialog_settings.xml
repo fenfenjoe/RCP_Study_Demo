@@ -3,18 +3,19 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="273" key="DIALOG_WIDTH"/>
 		<item value="313" key="DIALOG_Y_ORIGIN"/>
-		<item value="400" key="DIALOG_HEIGHT"/>
 		<item value="924" key="DIALOG_X_ORIGIN"/>
+		<item value="400" key="DIALOG_HEIGHT"/>
 		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="false" key="isRegEx"/>
 		<item value="true" key="casesensitive"/>
+		<item value="false" key="isRegEx"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="Node" key="selection"/>
+		<item value="testButton" key="selection"/>
 		<list key="findhistory">
+			<item value="textButton"/>
 			<item value="BaseWorkbenchContentProvider"/>
 			<item value="Process"/>
 			<item value="Experiment"/>
@@ -22,9 +23,9 @@
 			<item value="User"/>
 			<item value="ContentView"/>
 			<item value="createMenuItem"/>
-			<item value="this.getShell(),"/>
 		</list>
 		<list key="replacehistory">
+			<item value="testButton"/>
 			<item value="Node"/>
 			<item value="NavView"/>
 			<item value="createPushMenuItem"/>

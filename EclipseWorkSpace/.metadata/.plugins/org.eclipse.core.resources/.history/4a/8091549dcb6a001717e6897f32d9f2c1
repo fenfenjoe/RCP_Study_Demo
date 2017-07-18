@@ -1,0 +1,75 @@
+package com.ibm.demo.rcpclient.util;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.util.Properties;
+
+import org.eclipse.core.runtime.FileLocator;
+import org.eclipse.core.runtime.Platform;
+import org.eclipse.jface.resource.ImageDescriptor;
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.custom.CLabel;
+import org.eclipse.swt.events.PaintEvent;
+import org.eclipse.swt.events.PaintListener;
+import org.eclipse.swt.graphics.Image;
+import org.eclipse.swt.layout.GridData;
+import org.eclipse.swt.widgets.Canvas;
+import org.eclipse.swt.widgets.Composite;
+import org.osgi.framework.Bundle;
+
+import com.ibm.demo.plugin1.resource.IResourceKey;
+import com.ibm.demo.rcpclient.Activator;
+/**
+ * 
+ * @author Dong Yongzhao
+ * 示例代码
+ */
+public class ToolUtils {
+	/**
+	 * 找到插件中的图片资源并插入。
+	 * @param parent
+	 */
+	public void insertImage(Composite parent,String pluginID){
+		GridData layoutData;
+		CLabel imgLabel=new CLabel(parent,SWT.NONE);
+		ImageDescriptor idor=Activator.imageDescriptorFromPlugin(pluginID, IResourceKey.indexImg);
+		final Image img=idor.createImage();
+		final int imgWidth = img.getBounds().width;
+		final int imgHeight = img.getBounds().height;
+		Canvas canvas = new Canvas(parent, SWT.DOUBLE_BUFFERED);
+		canvas.addPaintListener(new PaintListener() {
+		      @Override
+		      public void paintControl(PaintEvent event) {
+		          // TODO Auto-generated method stub
+		          event.gc.drawImage(img, 0, 0, imgWidth, imgHeight, 0, 0, event.width, event.height);
+		     }
+		});
+		layoutData = new GridData(SWT.FILL,
+				SWT.FILL,true,true);
+		layoutData.horizontalSpan=5;
+		imgLabel.setLayoutData(layoutData);
+	}
+	public void manageFile(){
+		String filePathName="plugin.property";
+		
+		Bundle bundle = Platform.getBundle(Activator.PLUGIN_ID);
+
+		URL url = bundle.getResource(filePathName);
+//		URL url = bundle.getEntry(filePathName);
+		
+		InputStream is = null;
+		Properties p=new Properties();
+		try {
+			is = FileLocator.toFileURL(url).openStream();
+			p.load(is);
+			String about=p.getProperty("about-text");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	public static void  main(String[] arg0){
+		
+	}
+}
